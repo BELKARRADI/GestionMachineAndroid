@@ -1,0 +1,28 @@
+<!-- list_item_employe.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:id="@+id/textViewRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referenece"/>
+
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:id="@+id/textViewPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prix"/>
+
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:id="@+id/textViewMarqueId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marque"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.marque.MarqueFragment">
+
+<TextView
+    android:textStyle="bold"
+
+    android:id="@+id/text_marque"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toTopOf="@+id/editTextCode"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:text="Nouvelle marque" />
+
+<!-- Ajoutez le formulaire en dessous du TextView -->
+
+<EditText
+    android:id="@+id/editTextCode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toBottomOf="@+id/text_marque"
+    android:hint="Code"/>
+
+<EditText
+    android:id="@+id/editTextMarque"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toBottomOf="@+id/editTextCode"
+    android:hint="Marque"/>
+
+
+
+<Button
+    android:id="@+id/btnSubmitMarque"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    app:layout_constraintTop_toBottomOf="@+id/editTextMarque"
+    android:text="Submit"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

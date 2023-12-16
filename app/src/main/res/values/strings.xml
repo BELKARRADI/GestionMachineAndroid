@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sqlite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gestion Machine</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">G.Employés</string>
+    <string name="menu_gallery">Create Employe</string>
+    <string name="menu_slideshow">Statistiques</string>
+    <string name="menu_Gmarque">G.Marques</string>
+    <string name="menu_Cmarque">Create Marque</string>
+    <string name="menu_Gmachine">G.Machine</string>
+    <string name="menu_Cmachine">Create Machines</string>
+
+
+</resources>

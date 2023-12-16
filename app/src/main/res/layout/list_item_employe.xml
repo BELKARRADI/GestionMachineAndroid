@@ -1,0 +1,25 @@
+<!-- list_item_employe.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom"/>
+
+    <TextView
+        android:id="@+id/textViewPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prénom"/>
+
+    <TextView
+        android:id="@+id/textViewService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service"/>
+</LinearLayout>
